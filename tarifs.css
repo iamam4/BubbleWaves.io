@@ -1,0 +1,152 @@
+body {
+	background-color: whitesmoke;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	font-family: 'Balthazar', serif;
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+}
+
+nav {
+	position: absolute;
+	top: 10px;
+	width: 25%;
+	left: 400px;
+
+	
+	
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+
+.navbar a {
+
+	padding: 10px 10px;
+	color: black;
+	text-decoration: none;	
+}
+
+.navbar a:hover{
+	color: grey;
+}
+
+
+
+
+.inscrire{
+	position: absolute;
+	top: 15px;
+	right: 220px;
+  	width: 150px;
+  	height: 30px;
+  	text-align: center;
+  	font-family: 'Lato', sans-serif;
+  	font-size: 12px;
+  	background-color: whitesmoke;
+  	border: 0.5px solid black;
+  }
+
+  .inscrire a {
+  	text-decoration: none;
+  	color: black;
+  }
+
+.account{
+	position: absolute;
+	top: 15px;
+	right: 20px;
+  	width: 150px;
+  	height: 30px;
+  	text-align: center;
+  	font-family: 'Lato', sans-serif;
+  	font-size: 12px;
+  	background-color: black;
+  	border: 0.5px solid black;
+  }
+
+  .account a {
+  	text-decoration: none;
+  	color: white;
+  }
+
+
+
+
+footer{
+	position: absolute;
+	width: 100%;
+	height: 350px;
+	left: 0px;
+	margin-top: 50px;
+	background-color: black;
+	color: white;
+	font-family: lato;
+	text-align: left;
+
+}
+
+
+.footermain {
+	display: flex;
+	margin-left: 10px;
+
+}
+
+footer .partfooter {
+
+	padding: 30px 100px;
+
+}
+footer ul {
+	list-style-type: none;
+	margin-left: -35px;
+	font-size: 12px;
+
+}
+
+.imgtarif {
+
+	display: grid;
+	margin-top: 50px;
+	margin-left: 500px;
+	margin-bottom: 50px;
+
+}
+.deco a {
+  text-decoration: none;
+  color: darkgoldenrod;
+}
+.deco {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.sucess{
+  position: absolute;
+  top: -30px;
+  right: 170px;
+  color: black;
+  
+  font-size: 30px;
+  font-family: lato;
+  font-weight: initial;
+}
+
+
+
+
+
+
+
+
+
